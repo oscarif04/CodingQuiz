@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    
+    <title>Code Quiz</title>
+</head>
+<body>
+    <section class="section1">
+        <a href="/highscores.html">View Highscores</a>
+        <p id="timer">Timer: </p>
+    </section>
+
+    <section class="section2">
+        <h1 id="main-header">Coding Quiz Challenge</h1>
+        <p id="challenge-exp"><b>Try to answer the following code related questions within the time 
+            limit. Keep in mind that incorrect answers will penalize your scoretime
+            by ten seconds.
+        </b></p>
+        <section class="StartQuiz">
+            <button id="StartQuiz-btn">Start Quiz</button>
+        </section>
+    </section>
+    
+    <section class="question1"> <!--Question 1-->
+        <p id="Q1"><b>Commonly used data types DO NOT include:</b></p>
+        <section>
+            <button id="Q1A1">1. strings</button>
+            <button id="Q1A2">2. booleans</button>
+            <button id="Q1A3">3. alerts</button>
+            <button id="Q1A4">4. numbers</button>
+        </section>
+    </section>
+
+    <section class="question2"> <!--Question 2-->
+        <p id="Q2"><b>The condition in an if/else statement is enclosed within ____.</b></p>
+        <section>
+            <button id="Q2A1">1. quotes</button>
+            <button id="Q2A2">2. curly brackets</button>
+            <button id="Q2A3">3. parentheses</button>
+            <button id="Q2A4">4. square brackets</button>
+        </section>
+    </section>
+
+    <section class="question3"> <!--Question 3-->
+        <p id="Q3"><b>Arrays in JavaScript can be used to store ____.</b></p>
+        <section>
+            <button id="Q3A1">1. numbers and strings</button>
+            <button id="Q3A2">2. other arrays</button>
+            <button id="Q3A3">3. booleans</button>
+            <button id="Q3A4">4. all of the above</button>
+        </section>
+    </section>
+
+    <section class="question4"> <!--Question 4-->
+        <p id="Q4"><b>String values must be enclosed within ____ when being assigned to variables.</b></p>
+        <section>
+            <button id="Q4A1">1. commas</button>
+            <button id="Q4A2">2. curly brackets</button>
+            <button id="Q4A3">3. quotes</button>
+            <button id="Q4A4">4. parentheses</button>
+        </section>
+    </section>
+
+    <section class="question5"> <!--Question 5-->
+        <p id="Q5"><b>A very useful tool used during development and debugging for printing content to the debugger is:</b></p>
+        <section>
+            <button id="Q5A1">1. JavaScript</button>
+            <button id="Q5A2">2. terminal/bash</button>
+            <button id="Q5A3">3. for loops</button>
+            <button id="Q5A4">4. console.log</button>
+        </section>
+    </section>
+
+    <section class="AllDone"> <!--All Done page to input info.-->
+        <h1 id="AllDone-main">All Done!</h1>
+        <p id="score">Your final score is </p>
+        <form>
+            <label class="text-right" for="initials">Enter Initials:</label>
+            <input type="text" id="initials" name="user-initials">
+            <button id="submit">submit</button>
+        </form>
+
+
+    </section>
+
+    <section class="Highscores"> <!--highscores page-->
+        <h1 id="highscores-main">Highscores</h1>
+    </section>
+
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>
