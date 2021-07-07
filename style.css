@@ -1,0 +1,241 @@
+.section1{
+    margin-top: 10px;
+}
+
+#timer{
+    display: inline;
+    position: relative;
+    left: 1250px;
+}
+
+.section2{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 25px;
+}
+
+#main-header{
+    font-size: 35px;
+}
+
+#challenge-exp{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.StartQuiz{
+    text-align: center;
+    top: 0px;
+}
+
+#StartQuiz-btn{
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-size: 15px;
+    border-radius: 5px;
+    height: 25px;
+    width: 100px;
+    color: white;
+    background-color: purple;
+}
+
+.question1{
+    margin-top: 100px;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 25px;
+}
+
+.question2{
+    margin-top: 100px;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 25px;
+}
+
+.question3{
+    margin-top: 100px;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 25px;
+}
+
+.question4{
+    margin-top: 100px;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 25px;
+}
+
+.question5{
+    margin-top: 100px;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 25px;
+}
+
+#Q1{  /*Question 1 styling */
+    font-size: 25px;
+
+}
+
+#Q1A1,
+#Q1A2,
+#Q1A3,
+#Q1A4{  /* styling answers for question 1 */
+    text-align: left;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: block;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-size: 15px;
+    border-radius: 5px;
+    height: 25px;
+    width: 100px;
+    color: white;
+    background-color: purple;
+}
+
+#Q2{ /* question 2 styling */
+    font-size: 25px;
+}
+
+#Q2A1,
+#Q2A2,
+#Q2A3,
+#Q2A4{ /* styling answers for question 2*/
+    text-align: left;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: block;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-size: 11px;
+    border-radius: 5px;
+    height: 25px;
+    width: 100px;
+    color: white;
+    background-color: purple;
+}
+
+#Q3{ /* styling question 3 */
+    font-size: 25px;
+}
+
+#Q3A1,
+#Q3A2,
+#Q3A3,
+#Q3A4{ /* styling answers for question 3 */
+    text-align: left;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: block;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-size: 11px;
+    border-radius: 5px;
+    height: 25px;
+    width: 100px;
+    color: white;
+    background-color: purple;
+}
+
+#Q4{ /* question 4 styling */
+    font-size: 25px;
+}
+
+#Q4A1,
+#Q4A2,
+#Q4A3, 
+#Q4A4{ /* styling answers for question 4 */
+    text-align: left;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: block;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-size: 13px;
+    border-radius: 5px;
+    height: 25px;
+    width: 100px;
+    color: white;
+    background-color: purple;
+}
+
+#Q5{ /* question 5 styling */
+    font-size: 25px;
+}
+
+#Q5A1,
+#Q5A2,
+#Q5A3,
+#Q5A4{ /* stylinf answers for question 5 */
+    text-align: left;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: block;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-size: 13px;
+    border-radius: 5px;
+    height: 25px;
+    width: 100px;
+    color: white;
+    background-color: purple;
+}
+
+.AllDone{
+    margin-top: 100px;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 25px;
+}
+
+#AllDone-main{
+    font-size: 35px;
+}
+
+#score{
+    margin-left: 0px;
+    margin-right: 25px;
+}
+
+#submit{
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-size: 15px;
+    border-radius: 5px;
+    height: 25px;
+    width: 100px;
+    color: white;
+    background-color: purple;
+}
+
+.highscores{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 450px;
+    margin-right: 450px;
+    margin-bottom: 25px;
+}
+
+#highscores-main{
+    font-size: 35px;
+}
